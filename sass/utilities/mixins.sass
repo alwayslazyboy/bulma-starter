@@ -1,0 +1,58 @@
+@use './variables' as *
+@use '../../node_modules/bulma/sass/utilities/mixins' as Bulma
+
+// ----------------------------------------------------------------------------
+// Responsiveness
+// ----------------------------------------------------------------------------
+
+=from($device)
+    @include Bulma.from($device)
+        @content
+
+=until($device)
+    @include Bulma.until($device)
+        @content
+
+=mobile
+    @include Bulma.mobile
+        @content
+
+=tablet
+    @include Bulma.tablet
+        @content
+
+=tablet-only
+    @include Bulma.tablet-only
+        @content
+
+=touch
+    @include Bulma.touch
+        @content
+
+=desktop
+    @include Bulma.desktop
+        @content
+
+=desktop-only
+    @include Bulma.desktop-only
+        @content
+
+=until-widescreen
+    @include Bulma.until-widescreen
+        @content
+
+=widescreen
+    @include Bulma.widescreen
+        @content
+
+=widescreen-only
+    @include Bulma.widescreen-only
+        @content
+
+=until-fullhd
+    @include Bulma.until-fullhd
+        @content
+
+=fullhd
+    @include Bulma.fullhd
+        @content

@@ -1,0 +1,17 @@
+{
+  "name": "bulma-starter",
+  "version": "0.0.1",
+  "license": "WTFPL",
+  "devDependencies": {
+    "bulma": "^0.9.2",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss-prefixer": "^2.1.2",
+    "sass": "^1.32.12"
+  }
+}
